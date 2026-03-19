@@ -52,6 +52,24 @@ const EXERCISES = {
       'Subir a barra de uma vez.'
     ],
     warning: 'Evite compensações com a lombar. Se estiver começando, peça ajuste de carga a um instrutor.'
+  },
+  Nenem: {
+    title: 'Arremesso de Nena',
+    subtitle: 'Costas e bíceps.',
+    video: 'videos/nenem.mp4',
+    poster: 'img/poster-padrao.png',
+    muscles: ['Latíssimo do dorso', 'Bíceps', 'Redondo maior'],
+    tips: [
+      'mantenha as maos firmes.',
+      'nao deixe o nenem cair.',
+      'nao jogue muito alto.'
+    ],
+    errors: [
+      'derrubar o nenem no chao.',
+      'Balançar o tronco para roubar no movimento.',
+      'machucar o nenem.'
+    ],
+    warning: 'Evite compensações com a lombar. Se estiver começando, peça ajuda a um instrutor.'
   }
 };
 
