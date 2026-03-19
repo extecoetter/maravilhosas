@@ -53,7 +53,7 @@ const EXERCISES = {
     ],
     warning: 'Evite compensações com a lombar. Se estiver começando, peça ajuste de carga a um instrutor.'
   },
-  Nenem: {
+  nenem: {
     title: 'Arremesso de Nena',
     subtitle: 'Costas e bíceps.',
     video: 'videos/nenem.mp4',
