@@ -5,8 +5,8 @@
   --line:#334155;
   --text:#f8fafc;
   --muted:#cbd5e1;
-  --brand:#22c55e;
-  --brand-strong:#16a34a;
+  --brand:#ff0080;
+  --brand-strong:#e60073;
   --danger:#ef4444;
   --radius:18px;
   --shadow:0 12px 34px rgba(0,0,0,.25);
@@ -35,12 +35,13 @@ body{
   gap:14px;
 }
 .logo{
-  width:54px;height:54px;
+  width:54px;
+  height:54px;
   border-radius:16px;
   display:grid;
   place-items:center;
   background:linear-gradient(135deg,var(--brand),var(--brand-strong));
-  color:#052e16;
+  color:#fff;
   font-weight:900;
   font-size:22px;
 }
@@ -64,8 +65,8 @@ body{
   font-weight:700;
   letter-spacing:.04em;
   text-transform:uppercase;
-  color:#052e16;
-  background:#86efac;
+  color:#fff;
+  background:linear-gradient(135deg,var(--brand),var(--brand-strong));
   padding:6px 10px;
   border-radius:999px;
 }
@@ -89,10 +90,13 @@ video{display:block;width:100%;height:auto;max-height:70vh;background:#000}
   cursor:pointer;
 }
 .btn-primary{
-  background:var(--brand);
-  color:#052e16;
+  background:linear-gradient(135deg,var(--brand),var(--brand-strong));
+  color:#fff;
 }
-.btn-primary:hover{background:var(--brand-strong);color:#fff}
+.btn-primary:hover{
+  background:linear-gradient(135deg,var(--brand-strong),var(--brand));
+  color:#fff;
+}
 .details-grid{
   display:grid;
   grid-template-columns:repeat(2,minmax(0,1fr));
