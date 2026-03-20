@@ -10,22 +10,23 @@
 <body>
   <header class="topbar">
     <div class="brand-wrap">
-      <div class="logo">Maravilhosas</div>
-      <div>
-        <h1>Academia para Mulheres</h1>
+      <div class="logo" aria-label="Logo Maravilhosas">M</div>
+
+      <div class="brand-info">
+        <div class="academy-badge">Academia para Mulheres</div>
         <p>Escaneie o QR Code do aparelho e veja como executar o exercício.</p>
       </div>
     </div>
   </header>
 
   <main class="container">
-    <section class="hero card">
+    <section class="hero card fade-up fade-delay-1">
       <span class="tag">Treino Guiado</span>
       <h2 id="exerciseTitle">Carregando exercício...</h2>
       <p id="exerciseSubtitle" class="subtitle">Aguarde um instante.</p>
     </section>
 
-    <section class="player card">
+    <section class="player card fade-up fade-delay-2">
       <div class="video-wrap">
         <video id="exerciseVideo" controls playsinline preload="metadata" poster="img/poster-padrao.png">
           Seu navegador não suporta vídeo.
@@ -36,7 +37,7 @@
       </div>
     </section>
 
-    <section class="details-grid">
+    <section class="details-grid fade-up fade-delay-3">
       <article class="card">
         <h3>Músculos trabalhados</h3>
         <ul id="musclesList" class="list"></ul>
@@ -58,7 +59,7 @@
       </article>
     </section>
 
-    <section class="card exercises-list-card">
+    <section class="card exercises-list-card fade-up fade-delay-4">
       <div class="section-head">
         <h3>Exercícios cadastrados</h3>
         <p>Use estes links para testar e gerar os QR Codes.</p>
