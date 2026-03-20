@@ -75,8 +75,8 @@ body::after{
 }
 
 .logo{
-  width:150px;
-  height:150px;
+  width:150px !important;
+  height:150px !important;
   border-radius:20px;
   display:grid;
   place-items:center;
@@ -92,6 +92,7 @@ body::after{
   flex:0 0 auto;
   transition:transform .25s ease, box-shadow .25s ease;
 }
+
 .logo:hover{
   transform:translateY(-2px) scale(1.02);
   box-shadow:
