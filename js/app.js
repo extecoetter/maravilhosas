@@ -185,7 +185,7 @@ coicenapolia: {
   warning: 'Evite compensações na lombar. Em caso de dúvida procure um instrutor.'
 },
 
-abdutorempé: {
+abdutorempe: {
   title: 'Abdutor em Pé',
   subtitle: 'Glúteo médio.',
   video: 'videos/abdutorempe.mp4',
