@@ -280,7 +280,7 @@ levantamentoterrasumo: {
   warning: 'Mantenha a postura correta para evitar lesões. Em caso de dúvida procure um instrutor.'
 },
 
-gluteoempéaparelho: {
+gluteoempeaparelho: {
   title: 'Glúteo em Pé Aparelho',
   subtitle: 'Glúteos.',
   video: 'videos/gluteoempeaparelho.mp4',
