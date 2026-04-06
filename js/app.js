@@ -188,7 +188,7 @@ coicenapolia: {
 abdutorempé: {
   title: 'Abdutor em Pé',
   subtitle: 'Glúteo médio.',
-  video: 'videos/abdutorempé.mp4',
+  video: 'videos/abdutorempe.mp4',
   poster: 'img/poster-padrao.png',
   muscles: ['Glúteo médio'],
   tips: [
@@ -283,7 +283,7 @@ levantamentoterrasumo: {
 gluteoempéaparelho: {
   title: 'Glúteo em Pé Aparelho',
   subtitle: 'Glúteos.',
-  video: 'videos/gluteoempéaparelho.mp4',
+  video: 'videos/gluteoempeaparelho.mp4',
   poster: 'img/poster-padrao.png',
   muscles: ['Glúteos'],
   tips: [
