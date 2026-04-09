@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Academia Maravilhosas - Alongamentos</title>
+  <meta name="description" content="Guia rápido de alongamentos por QR Code.">
+  <link rel="stylesheet" href="css/style.css?v=2">
+  <style>
+    .videos-grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+      gap:16px;
+      margin-top:20px;
+    }
+    .exercise-card{
+      display:flex;
+      flex-direction:column;
+      gap:12px;
+    }
+    .exercise-card h3{
+      margin:0;
+    }
+    .exercise-card p{
+      margin:0;
+    }
+    .exercise-card .video-wrap{
+      border-radius:16px;
+      overflow:hidden;
+    }
+    .exercise-card video{
+      width:100%;
+      display:block;
+      background:#000;
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand-wrap">
+      <img src="img/logo.png" class="logo" alt="Logo Maravilhosas">
+
+      <div class="brand-info">
+        <div class="academy-badge">Maravilhosas</div>
+        <p>Escolha abaixo o alongamento que deseja assistir.</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero card fade-up fade-delay-1">
+      <span class="tag">Treino Guiado</span>
+      <h2>Alongamentos</h2>
+      <p class="subtitle">Role a página e escolha o alongamento que deseja fazer.</p>
+    </section>
+
+    <section class="card fade-up fade-delay-2">
+      <div class="section-head">
+        <h3>Vídeos de Alongamento</h3>
+        <p>Toque no vídeo para assistir.</p>
+      </div>
+
+      <div id="alongamentosList" class="videos-grid"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Em caso de dúvidas, procure um instrutor.</p>
+  </footer>
+
+  <script>
+    const alongamentos = [
+      {
+        titulo: "Alongamento Posterior de Coxa",
+        subtitulo: "Foco em posterior e mobilidade",
+        video: "videos/alongamento-posterior-coxa.mp4"
+      },
+      {
+        titulo: "Alongamento de Quadríceps",
+        subtitulo: "Foco na parte da frente da coxa",
+        video: "videos/alongamento-quadriceps.mp4"
+      },
+      {
+        titulo: "Alongamento de Glúteos",
+        subtitulo: "Foco em glúteos e região do quadril",
+        video: "videos/alongamento-gluteos.mp4"
+      },
+      {
+        titulo: "Alongamento de Lombar",
+        subtitulo: "Ajuda na mobilidade e relaxamento",
+        video: "videos/alongamento-lombar.mp4"
+      },
+      {
+        titulo: "Alongamento de Ombros",
+        subtitulo: "Foco em ombros e parte superior",
+        video: "videos/alongamento-ombros.mp4"
+      },
+      {
+        titulo: "Alongamento de Peitoral",
+        subtitulo: "Abertura de peitoral e ombros",
+        video: "videos/alongamento-peitoral.mp4"
+      }
+    ];
+
+    const container = document.getElementById("alongamentosList");
+
+    container.innerHTML = alongamentos.map(item => `
+      <article class="card exercise-card">
+        <div>
+          <h3>${item.titulo}</h3>
+          <p class="subtitle">${item.subtitulo}</p>
+        </div>
+
+        <div class="video-wrap">
+          <video controls playsinline preload="metadata" poster="img/poster-padrao.png">
+            <source src="${item.video}" type="video/mp4">
+            Seu navegador não suporta vídeo.
+          </video>
+        </div>
+      </article>
+    `).join("");
+  </script>
+</body>
+</html>
