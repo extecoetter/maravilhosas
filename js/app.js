@@ -53,24 +53,7 @@ const EXERCISES = {
     ],
     warning: 'Evite compensações com a lombar. Se estiver começando, peça ajuste de carga a um instrutor.'
   },
-  nenem: {
-    title: 'Supino Articulado',
-    subtitle: 'Peito.',
-    video: 'videos/nensdssdm.mp4',
-    poster: 'img/poster-padrao.png',
-    muscles: ['Peitoral'],
-    tips: [
-      'mantenha as maos firmes.',
-      '.',
-      '.'
-    ],
-    errors: [
-      '.',
-      '.',
-      '.'
-    ],
-    warning: 'Evite compensações com a lombar. Se estiver começando, peça ajuda a um instrutor.'
-  },
+  
   elevacaopelvicamaquina: {
   title: 'Elevação Pélvica Máquina',
   subtitle: 'Glúteos e posteriores.',
@@ -771,7 +754,652 @@ remadaunilateral: {
     'Fazer o movimento rápido demais.'
   ],
   warning: 'Execute de forma controlada para evitar compensações do corpo. Em caso de dúvida procure um instrutor.'
-}
+},
+  crucifixo: {
+  title: 'Crucifixo',
+  subtitle: 'Peito e ombros anteriores.',
+  video: 'videos/crucifixo.mp4',
+  poster: 'img/poster-padrao.png',
+  muscles: ['Peitoral maior', 'Deltoide anterior'],
+  tips: [
+    'Mantenha leve flexão nos cotovelos.',
+    'Abra o movimento com controle.',
+    'Contraia o peito no final.'
+  ],
+  errors: [
+    'Esticar demais os braços.',
+    'Descer rápido demais.',
+    'Perder o controle na volta.'
+  ],
+  warning: 'Evite sobrecarregar os ombros. Em caso de dúvida procure um instrutor.'
+},
+
+crucifixoarticulado: {
+  title: 'Crucifixo Articulado',
+  subtitle: 'Peito.',
+  video: 'videos/crucifixoarticulado.mp4',
+  poster: 'img/poster-padrao.png',
+  muscles: ['Peitoral maior'],
+  tips: [
+    'Ajuste o banco corretamente.',
+    'Movimento controlado.',
+    'Aproxime bem as mãos no final.'
+  ],
+  errors: [
+    'Usar impulso.',
+    'Abrir demais os braços.',
+    'Descer sem controle.'
+  ],
+  warning: 'Regule o equipamento antes de iniciar. Em caso de dúvida procure um instrutor.'
+},
+
+crucifixocross: {
+  title: 'Crucifixo Cross',
+  subtitle: 'Peito.',
+  video: 'videos/crucifixocross.mp4',
+  poster: 'img/poster-padrao.png',
+  muscles: ['Peitoral maior'],
+  tips: [
+    'Mantenha o tronco firme.',
+    'Feche os braços na linha do peito.',
+    'Controle a volta.'
+  ],
+  errors: [
+    'Balançar o corpo.',
+    'Abrir rápido demais.',
+    'Usar carga excessiva.'
+  ],
+  warning: 'Priorize a execução ao invés da carga. Em caso de dúvida procure um instrutor.'
+},
+
+peckdeckhalter: {
+  title: 'Peck Deck Halter',
+  subtitle: 'Peito.',
+  video: 'videos/peckdeckhalter.mp4',
+  poster: 'img/poster-padrao.png',
+  muscles: ['Peitoral maior'],
+  tips: [
+    'Controle a abertura dos braços.',
+    'Mantenha leve flexão nos cotovelos.',
+    'Contraia o peito no final do movimento.'
+  ],
+  errors: [
+    'Descer rápido demais.',
+    'Esticar completamente os cotovelos.',
+    'Perder o controle dos halteres.'
+  ],
+  warning: 'Evite exagerar na amplitude para não sobrecarregar os ombros. Em caso de dúvida procure um instrutor.'
+},
+
+supinobarralivre: {
+  title: 'Supino Barra Livre',
+  subtitle: 'Peito, tríceps e ombros anteriores.',
+  video: 'videos/supinobarralivre.mp4',
+  poster: 'img/poster-padrao.png',
+  muscles: ['Peitoral maior', 'Tríceps', 'Deltoide anterior'],
+  tips: [
+    'Mantenha os pés firmes no chão.',
+    'Desça a barra com controle.',
+    'Suba sem travar totalmente os cotovelos.'
+  ],
+  errors: [
+    'Levantar o quadril do banco.',
+    'Descer a barra rápido demais.',
+    'Abrir os cotovelos em excesso.'
+  ],
+  warning: 'Use carga compatível com seu nível e prefira apoio ao treinar pesado. Em caso de dúvida procure um instrutor.'
+},
+
+supinohalter: {
+  title: 'Supino Halter',
+  subtitle: 'Peito, tríceps e ombros anteriores.',
+  video: 'videos/supinohalter.mp4',
+  poster: 'img/poster-padrao.png',
+  muscles: ['Peitoral maior', 'Tríceps', 'Deltoide anterior'],
+  tips: [
+    'Mantenha os halteres alinhados.',
+    'Controle a descida em ambos os lados.',
+    'Suba de forma firme e equilibrada.'
+  ],
+  errors: [
+    'Descer torto.',
+    'Perder estabilidade no movimento.',
+    'Fazer o exercício rápido demais.'
+  ],
+  warning: 'Tenha cuidado com a estabilidade dos halteres durante toda a execução. Em caso de dúvida procure um instrutor.'
+},
+
+tricepscordacross: {
+  title: 'Tríceps Corda Cross',
+  subtitle: 'Tríceps.',
+  video: 'videos/tricepscordacross.mp4',
+  poster: 'img/poster-padrao.png',
+  muscles: ['Tríceps'],
+  tips: [
+    'Mantenha os cotovelos fixos ao lado do corpo.',
+    'Abra a corda no final do movimento.',
+    'Retorne com controle.'
+  ],
+  errors: [
+    'Mexer os cotovelos para frente e para trás.',
+    'Usar impulso do tronco.',
+    'Subir rápido demais.'
+  ],
+  warning: 'Foque na contração do tríceps e não no embalo. Em caso de dúvida procure um instrutor.'
+},
+
+roscadiretacross: {
+  title: 'Rosca Direta Cross',
+  subtitle: 'Bíceps.',
+  video: 'videos/roscadiretacross.mp4',
+  poster: 'img/poster-padrao.png',
+  muscles: ['Bíceps'],
+  tips: [
+    'Mantenha os cotovelos próximos ao corpo.',
+    'Suba controlando o cabo.',
+    'Desça devagar para manter tensão.'
+  ],
+  errors: [
+    'Balançar o corpo para ajudar.',
+    'Subir muito rápido.',
+    'Usar carga que prejudique a técnica.'
+  ],
+  warning: 'Evite roubar no movimento para ativar melhor o bíceps. Em caso de dúvida procure um instrutor.'
+},
+
+subidanobanco: {
+  title: 'Subida no Banco',
+  subtitle: 'Glúteos e quadríceps.',
+  video: 'videos/subidanobanco.mp4',
+  poster: 'img/poster-padrao.png',
+  muscles: ['Glúteos', 'Quadríceps'],
+  tips: [
+    'Suba com controle.',
+    'Empurre pelo calcanhar da perna de apoio.',
+    'Desça devagar e com estabilidade.'
+  ],
+  errors: [
+    'Usar impulso da perna de trás.',
+    'Descer muito rápido.',
+    'Perder o equilíbrio.'
+  ],
+  warning: 'Use um banco estável e mantenha atenção ao apoio dos pés. Em caso de dúvida procure um instrutor.'
+},
+
+desenvolvimentoarticulado: {
+  title: 'Desenvolvimento Articulado',
+  subtitle: 'Ombros.',
+  video: 'videos/desenvolvimentoarticulado.mp4',
+  poster: 'img/poster-padrao.png',
+  muscles: ['Deltoide anterior', 'Deltoide lateral', 'Tríceps'],
+  tips: [
+    'Mantenha a postura firme no banco.',
+    'Suba sem travar totalmente os cotovelos.',
+    'Controle a descida.'
+  ],
+  errors: [
+    'Arquear a lombar.',
+    'Descer rápido demais.',
+    'Usar impulso.'
+  ],
+  warning: 'Ajuste o equipamento e controle a carga para proteger os ombros. Em caso de dúvida procure um instrutor.'
+},
+
+remadaaltacross: {
+  title: 'Remada Alta Cross',
+  subtitle: 'Ombros e trapézio.',
+  video: 'videos/remadaaltacross.mp4',
+  poster: 'img/poster-padrao.png',
+  muscles: ['Trapézio', 'Deltoide lateral', 'Deltoide anterior'],
+  tips: [
+    'Puxe com os cotovelos apontando para cima.',
+    'Mantenha o tronco firme.',
+    'Faça o movimento de forma controlada.'
+  ],
+  errors: [
+    'Subir os braços além do necessário.',
+    'Usar impulso do corpo.',
+    'Perder a postura.'
+  ],
+  warning: 'Evite cargas altas que prejudiquem o movimento. Em caso de dúvida procure um instrutor.'
+},
+
+elevacaofrontalcross: {
+  title: 'Elevação Frontal Cross',
+  subtitle: 'Ombro anterior.',
+  video: 'videos/elevacaofrontalcross.mp4',
+  poster: 'img/poster-padrao.png',
+  muscles: ['Deltoide anterior'],
+  tips: [
+    'Suba até a altura dos ombros.',
+    'Mantenha o abdômen firme.',
+    'Controle a descida.'
+  ],
+  errors: [
+    'Subir além da linha dos ombros.',
+    'Usar impulso.',
+    'Descer rápido demais.'
+  ],
+  warning: 'Use carga moderada para manter a execução limpa. Em caso de dúvida procure um instrutor.'
+},
+
+crucifixoinverso: {
+  title: 'Crucifixo Inverso',
+  subtitle: 'Ombro posterior e parte alta das costas.',
+  video: 'videos/crucifixoinverso.mp4',
+  poster: 'img/poster-padrao.png',
+  muscles: ['Deltoide posterior', 'Romboides'],
+  tips: [
+    'Abra os braços com controle.',
+    'Mantenha o peito apoiado ou tronco firme.',
+    'Contraia atrás no final do movimento.'
+  ],
+  errors: [
+    'Usar impulso.',
+    'Abrir rápido demais.',
+    'Perder a postura do tronco.'
+  ],
+  warning: 'Foque na técnica e não apenas na carga. Em caso de dúvida procure um instrutor.'
+},
+
+bancoadutor: {
+  title: 'Banco Adutor',
+  subtitle: 'Adutores.',
+  video: 'videos/bancoadutor.mp4',
+  poster: 'img/poster-padrao.png',
+  muscles: ['Adutores'],
+  tips: [
+    'Feche as pernas com controle.',
+    'Mantenha a postura no encosto.',
+    'Retorne devagar.'
+  ],
+  errors: [
+    'Soltar o peso na volta.',
+    'Usar impulso.',
+    'Perder a postura no banco.'
+  ],
+  warning: 'Ajuste o banco corretamente antes de iniciar. Em caso de dúvida procure um instrutor.'
+},
+
+mesaflexora: {
+  title: 'Mesa Flexora',
+  subtitle: 'Posteriores da coxa.',
+  video: 'videos/mesaflexora.mp4',
+  poster: 'img/poster-padrao.png',
+  muscles: ['Posteriores da coxa'],
+  tips: [
+    'Mantenha o quadril apoiado.',
+    'Flexione os joelhos com controle.',
+    'Desça devagar.'
+  ],
+  errors: [
+    'Tirar o quadril do banco.',
+    'Usar impulso.',
+    'Voltar rápido demais.'
+  ],
+  warning: 'Regule o aparelho conforme sua altura. Em caso de dúvida procure um instrutor.'
+},
+
+roscafemural: {
+  title: 'Rosca Femural',
+  subtitle: 'Posteriores da coxa.',
+  video: 'videos/roscafemural.mp4',
+  poster: 'img/poster-padrao.png',
+  muscles: ['Posteriores da coxa'],
+  tips: [
+    'Faça o movimento com controle.',
+    'Mantenha o alinhamento das pernas.',
+    'Retorne devagar.'
+  ],
+  errors: [
+    'Usar impulso.',
+    'Subir e descer rápido.',
+    'Perder a posição no aparelho.'
+  ],
+  warning: 'Priorize amplitude segura e controle total do movimento. Em caso de dúvida procure um instrutor.'
+},
+
+beltsquat: {
+  title: 'Belt Squat',
+  subtitle: 'Quadríceps e glúteos.',
+  video: 'videos/beltsquat.mp4',
+  poster: 'img/poster-padrao.png',
+  muscles: ['Quadríceps', 'Glúteos', 'Adutores'],
+  tips: [
+    'Mantenha o tronco firme.',
+    'Desça controlando o movimento.',
+    'Empurre o chão com os calcanhares.'
+  ],
+  errors: [
+    'Descer rápido demais.',
+    'Joelhos fechando para dentro.',
+    'Perder a postura.'
+  ],
+  warning: 'Ajuste bem o cinturão antes de iniciar. Em caso de dúvida procure um instrutor.'
+},
+
+goodmorning: {
+  title: 'Good Morning',
+  subtitle: 'Posteriores, glúteos e lombar.',
+  video: 'videos/goodmorning.mp4',
+  poster: 'img/poster-padrao.png',
+  muscles: ['Posteriores da coxa', 'Glúteos', 'Eretores da espinha'],
+  tips: [
+    'Mantenha a coluna neutra.',
+    'Projete o quadril para trás.',
+    'Suba controlando o tronco.'
+  ],
+  errors: [
+    'Curvar a lombar.',
+    'Descer além do que consegue controlar.',
+    'Fazer o movimento rápido.'
+  ],
+  warning: 'Exercício que exige bastante postura. Use carga segura. Em caso de dúvida procure um instrutor.'
+},
+
+bancoflexor: {
+  title: 'Banco Flexor',
+  subtitle: 'Posteriores da coxa.',
+  video: 'videos/bancoflexor.mp4',
+  poster: 'img/poster-padrao.png',
+  muscles: ['Posteriores da coxa'],
+  tips: [
+    'Ajuste o aparelho corretamente.',
+    'Flexione os joelhos com controle.',
+    'Desça devagar.'
+  ],
+  errors: [
+    'Usar impulso.',
+    'Perder o apoio do corpo.',
+    'Voltar rápido demais.'
+  ],
+  warning: 'Mantenha o movimento controlado do início ao fim. Em caso de dúvida procure um instrutor.'
+},
+
+pullover: {
+  title: 'Pullover',
+  subtitle: 'Costas e peitoral.',
+  video: 'videos/pullover.mp4',
+  poster: 'img/poster-padrao.png',
+  muscles: ['Latíssimo do dorso', 'Peitoral maior', 'Serrátil'],
+  tips: [
+    'Mantenha os braços levemente flexionados.',
+    'Controle bem a descida.',
+    'Faça o retorno sem pressa.'
+  ],
+  errors: [
+    'Dobrar demais os cotovelos.',
+    'Descer sem controle.',
+    'Usar carga excessiva.'
+  ],
+  warning: 'Evite exagerar na amplitude para não sobrecarregar os ombros. Em caso de dúvida procure um instrutor.'
+},
+
+panturrilhasentada: {
+  title: 'Panturrilha Sentada',
+  subtitle: 'Panturrilhas.',
+  video: 'videos/panturrilhasentada.mp4',
+  poster: 'img/poster-padrao.png',
+  muscles: ['Sóleo', 'Gastrocnêmio'],
+  tips: [
+    'Suba o máximo que conseguir.',
+    'Desça alongando bem a panturrilha.',
+    'Mantenha ritmo controlado.'
+  ],
+  errors: [
+    'Fazer repetições curtas.',
+    'Usar impulso.',
+    'Movimento rápido demais.'
+  ],
+  warning: 'Controle toda a amplitude para melhor ativação. Em caso de dúvida procure um instrutor.'
+},
+
+panturrilhalivre: {
+  title: 'Panturrilha Livre',
+  subtitle: 'Panturrilhas.',
+  video: 'videos/panturrilhalivre.mp4',
+  poster: 'img/poster-padrao.png',
+  muscles: ['Gastrocnêmio', 'Sóleo'],
+  tips: [
+    'Apoie bem a ponta dos pés.',
+    'Suba controlando o movimento.',
+    'Desça alongando bem.'
+  ],
+  errors: [
+    'Movimento curto.',
+    'Usar impulso do corpo.',
+    'Descer rápido demais.'
+  ],
+  warning: 'Faça o exercício em base segura e estável. Em caso de dúvida procure um instrutor.'
+},
+
+roscascott: {
+  title: 'Rosca Scott',
+  subtitle: 'Bíceps.',
+  video: 'videos/roscascott.mp4',
+  poster: 'img/poster-padrao.png',
+  muscles: ['Bíceps'],
+  tips: [
+    'Mantenha os braços apoiados no banco.',
+    'Suba com controle.',
+    'Desça devagar até quase estender.'
+  ],
+  errors: [
+    'Tirar o braço do apoio.',
+    'Usar impulso.',
+    'Descer sem controle.'
+  ],
+  warning: 'Evite cargas que façam perder a postura no banco. Em caso de dúvida procure um instrutor.'
+},
+
+tricepsbanco: {
+  title: 'Tríceps Banco',
+  subtitle: 'Tríceps.',
+  video: 'videos/tricepsbanco.mp4',
+  poster: 'img/poster-padrao.png',
+  muscles: ['Tríceps'],
+  tips: [
+    'Desça com controle.',
+    'Mantenha os cotovelos apontando para trás.',
+    'Suba de forma firme.'
+  ],
+  errors: [
+    'Abrir demais os cotovelos.',
+    'Descer muito rápido.',
+    'Jogar o corpo para frente.'
+  ],
+  warning: 'Evite amplitude excessiva se sentir desconforto nos ombros. Em caso de dúvida procure um instrutor.'
+},
+
+tricepstesta: {
+  title: 'Tríceps Testa',
+  subtitle: 'Tríceps.',
+  video: 'videos/tricepstesta.mp4',
+  poster: 'img/poster-padrao.png',
+  muscles: ['Tríceps'],
+  tips: [
+    'Mantenha os cotovelos firmes.',
+    'Desça controlado.',
+    'Suba sem perder alinhamento.'
+  ],
+  errors: [
+    'Abrir os cotovelos.',
+    'Usar impulso.',
+    'Descer rápido demais.'
+  ],
+  warning: 'Foque no controle do movimento para proteger os cotovelos. Em caso de dúvida procure um instrutor.'
+},
+
+tricepsfranceshalter: {
+  title: 'Tríceps Francês Halter',
+  subtitle: 'Tríceps.',
+  video: 'videos/tricepsfranceshalter.mp4',
+  poster: 'img/poster-padrao.png',
+  muscles: ['Tríceps'],
+  tips: [
+    'Mantenha os cotovelos apontados para cima.',
+    'Desça o halter com controle.',
+    'Suba de forma firme.'
+  ],
+  errors: [
+    'Abrir muito os cotovelos.',
+    'Arquear a lombar.',
+    'Usar impulso.'
+  ],
+  warning: 'Use carga moderada para manter o alinhamento. Em caso de dúvida procure um instrutor.'
+},
+
+roscadiretahalter: {
+  title: 'Rosca Direta Halter',
+  subtitle: 'Bíceps.',
+  video: 'videos/roscadiretahalter.mp4',
+  poster: 'img/poster-padrao.png',
+  muscles: ['Bíceps'],
+  tips: [
+    'Mantenha os cotovelos próximos ao corpo.',
+    'Suba com controle.',
+    'Desça devagar.'
+  ],
+  errors: [
+    'Balançar o tronco.',
+    'Subir rápido demais.',
+    'Usar carga alta demais.'
+  ],
+  warning: 'Evite roubar no movimento para melhor ativação muscular. Em caso de dúvida procure um instrutor.'
+},
+
+roscamartelohalter: {
+  title: 'Rosca Martelo Halter',
+  subtitle: 'Bíceps e antebraço.',
+  video: 'videos/roscamartelohalter.mp4',
+  poster: 'img/poster-padrao.png',
+  muscles: ['Bíceps', 'Braquial', 'Antebraço'],
+  tips: [
+    'Mantenha a pegada neutra.',
+    'Suba sem mexer os cotovelos.',
+    'Retorne devagar.'
+  ],
+  errors: [
+    'Balançar o corpo.',
+    'Perder a posição dos punhos.',
+    'Descer rápido demais.'
+  ],
+  warning: 'Faça o movimento limpo e sem embalo. Em caso de dúvida procure um instrutor.'
+},
+
+roscaalternada: {
+  title: 'Rosca Alternada',
+  subtitle: 'Bíceps.',
+  video: 'videos/roscaalternada.mp4',
+  poster: 'img/poster-padrao.png',
+  muscles: ['Bíceps'],
+  tips: [
+    'Suba um braço de cada vez com controle.',
+    'Mantenha o tronco firme.',
+    'Desça devagar.'
+  ],
+  errors: [
+    'Balançar o corpo.',
+    'Subir os dois lados desorganizado.',
+    'Usar impulso.'
+  ],
+  warning: 'Controle o ritmo para manter a execução correta. Em caso de dúvida procure um instrutor.'
+},
+
+elevacaolateralhalter: {
+  title: 'Elevação Lateral Halter',
+  subtitle: 'Ombros.',
+  video: 'videos/elevacaolateralhalter.mp4',
+  poster: 'img/poster-padrao.png',
+  muscles: ['Deltoide lateral'],
+  tips: [
+    'Suba até a linha dos ombros.',
+    'Mantenha leve flexão nos cotovelos.',
+    'Desça com controle.'
+  ],
+  errors: [
+    'Usar impulso do tronco.',
+    'Subir demais os braços.',
+    'Descer rápido.'
+  ],
+  warning: 'Use carga moderada para não perder a técnica. Em caso de dúvida procure um instrutor.'
+},
+
+elevacaofrontalhalter: {
+  title: 'Elevação Frontal Halter',
+  subtitle: 'Ombro anterior.',
+  video: 'videos/elevacaofrontalhalter.mp4',
+  poster: 'img/poster-padrao.png',
+  muscles: ['Deltoide anterior'],
+  tips: [
+    'Suba até a altura dos ombros.',
+    'Mantenha o abdômen firme.',
+    'Desça controlando o peso.'
+  ],
+  errors: [
+    'Subir além da linha dos ombros.',
+    'Usar impulso.',
+    'Fazer o movimento rápido.'
+  ],
+  warning: 'Evite excesso de carga para manter a execução correta. Em caso de dúvida procure um instrutor.'
+},
+
+desenvolvimentohalter: {
+  title: 'Desenvolvimento Halter',
+  subtitle: 'Ombros e tríceps.',
+  video: 'videos/desenvolvimentohalter.mp4',
+  poster: 'img/poster-padrao.png',
+  muscles: ['Deltoide anterior', 'Deltoide lateral', 'Tríceps'],
+  tips: [
+    'Mantenha os halteres alinhados.',
+    'Suba sem travar completamente os cotovelos.',
+    'Controle bem a descida.'
+  ],
+  errors: [
+    'Arquear a lombar.',
+    'Descer rápido demais.',
+    'Perder estabilidade.'
+  ],
+  warning: 'Mantenha postura firme e use carga compatível. Em caso de dúvida procure um instrutor.'
+},
+
+stiff: {
+  title: 'Stiff',
+  subtitle: 'Posteriores, glúteos e lombar.',
+  video: 'videos/stiff.mp4',
+  poster: 'img/poster-padrao.png',
+  muscles: ['Posteriores da coxa', 'Glúteos', 'Eretores da espinha'],
+  tips: [
+    'Mantenha a coluna neutra.',
+    'Desça levando o quadril para trás.',
+    'Suba contraindo glúteos e posteriores.'
+  ],
+  errors: [
+    'Curvar a lombar.',
+    'Descer além da amplitude segura.',
+    'Usar impulso para subir.'
+  ],
+  warning: 'Exercício que exige bastante atenção à postura. Em caso de dúvida procure um instrutor.'
+},
+
+agachamentosumokettbell: {
+  title: 'Agachamento Sumô Kettbell',
+  subtitle: 'Glúteos, quadríceps e adutores.',
+  video: 'videos/agachamentosumokettbell.mp4',
+  poster: 'img/poster-padrao.png',
+  muscles: ['Glúteos', 'Quadríceps', 'Adutores'],
+  tips: [
+    'Mantenha os pés bem abertos.',
+    'Segure o kettlebell com firmeza.',
+    'Desça controlando e suba pelos calcanhares.'
+  ],
+  errors: [
+    'Curvar a lombar.',
+    'Deixar os joelhos fecharem para dentro.',
+    'Descer rápido demais.'
+  ],
+  warning: 'Mantenha o tronco firme e respeite sua amplitude segura. Em caso de dúvida procure um instrutor.'
+},
 };
 
 function qs(selector) {
