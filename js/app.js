@@ -1382,10 +1382,10 @@ stiff: {
   warning: 'Exercício que exige bastante atenção à postura. Em caso de dúvida procure um instrutor.'
 },
 
-agachamentosumokettbell: {
-  title: 'Agachamento Sumô Kettbell',
+agachamentosumokettlebell: {
+  title: 'Agachamento Sumô Kettlebell',
   subtitle: 'Glúteos, quadríceps e adutores.',
-  video: 'videos/agachamentosumokettbell.mp4',
+  video: 'videos/agachamentosumokettlebell.mp4',
   poster: 'img/poster-padrao.png',
   muscles: ['Glúteos', 'Quadríceps', 'Adutores'],
   tips: [
