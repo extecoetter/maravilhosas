@@ -1381,62 +1381,6 @@ stiff: {
   ],
   warning: 'Exercício que exige bastante atenção à postura. Em caso de dúvida procure um instrutor.'
 },
-  supinoarticulado: {
-  title: 'Supino Articulado',
-  subtitle: 'Peito, tríceps e ombros anteriores.',
-  video: 'videos/supinoarticulado.mp4',
-  poster: 'img/poster-padrao.png',
-  muscles: ['Peitoral maior', 'Tríceps', 'Deltoide anterior'],
-  tips: [
-    'Ajuste o banco na altura correta.',
-    'Empurre com movimento controlado.',
-    'Retorne devagar sem soltar o peso.'
-  ],
-  errors: [
-    'Descer rápido demais.',
-    'Travar totalmente os cotovelos.',
-    'Perder a postura no banco.'
-  ],
-  warning: 'Regule o equipamento antes de iniciar e use carga compatível com seu nível. Em caso de dúvida procure um instrutor.'
-},
-
-supinobarraguiada: {
-  title: 'Supino Barra Guiada',
-  subtitle: 'Peito, tríceps e ombros anteriores.',
-  video: 'videos/supinobarraguiada.mp4',
-  poster: 'img/poster-padrao.png',
-  muscles: ['Peitoral maior', 'Tríceps', 'Deltoide anterior'],
-  tips: [
-    'Mantenha os pés firmes no chão.',
-    'Desça a barra com controle.',
-    'Suba sem travar totalmente os cotovelos.'
-  ],
-  errors: [
-    'Levantar o quadril do banco.',
-    'Descer a barra rápido demais.',
-    'Abrir os cotovelos em excesso.'
-  ],
-  warning: 'Ajuste o banco e a posição da barra antes de começar. Em caso de dúvida procure um instrutor.'
-},
-
-crucifixovoador: {
-  title: 'Crucifixo Voador',
-  subtitle: 'Peito e ombros anteriores.',
-  video: 'videos/crucifixovoador.mp4',
-  poster: 'img/poster-padrao.png',
-  muscles: ['Peitoral maior', 'Deltoide anterior'],
-  tips: [
-    'Mantenha o peito aberto durante o movimento.',
-    'Feche os braços com controle.',
-    'Retorne devagar para manter tensão.'
-  ],
-  errors: [
-    'Usar impulso no movimento.',
-    'Abrir demais os braços sem controle.',
-    'Soltar o peso na volta.'
-  ],
-  warning: 'Use carga moderada para manter a execução correta. Em caso de dúvida procure um instrutor.'
-},
 
 agachamentosumokettlebell: {
   title: 'Agachamento Sumô Kettlebell',
